@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown and HTML
+title: 学习游泳
 ---
 
 ## 游泳

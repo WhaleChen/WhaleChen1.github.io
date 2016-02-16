@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown and HTML
+title: 对于特征向量和马尔科夫链的理解
 ---
 
 
