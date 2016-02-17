@@ -5,4 +5,4 @@ title: 学习游泳
 
 ## 游泳
 - 自由泳： [视频](http://v.ifeng.com/vblog/others/201202/3cdf678b-4e2b-7610-2776-baf8682932e7.shtml)
-- 理论
+- 理论: 自由泳是自由的游泳，非常有力
