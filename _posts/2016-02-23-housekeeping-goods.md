@@ -3,7 +3,7 @@ layout: post
 title: 如何收拾和整理东东？
 ---
 
-### 本多先生每日收纳之[收拾](https://www.iris-interior.com/mainichi/20.html)
+### [本多先生每日收纳之收拾](https://www.iris-interior.com/mainichi/20.html)
 
 - 这里是日文的，翻译如下: 
     
