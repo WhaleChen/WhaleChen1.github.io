@@ -13,3 +13,6 @@ indeed, it's the only thing that ever has.  --Margaret Mead
 
 ### 机器学习是个啥
 - [刘虓震的技术笔记](刘虓震的技术笔记)
+
+### 学习曲线
+- 算法是支点！可以简化事情，使得思维简单~

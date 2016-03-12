@@ -18,4 +18,8 @@ title: 机器学习笔记第一周
 ### Cost Funtion with univariate linear regression 单一变量回顾
 - Cost Function: 可以认为是成本函数，其实这很形象，预测所需要的成本，那些根本不靠谱的模型的成本高，最契合的模型成本最低
 - Squared error function，通常情况下使用的函数。
-
+- Notation: J(theta) 
+- Notation: theta_j := theta_j - delta J(theta)   ":=" 为assignment
+- Simultaneous update:
+- convex function: only on global min 
+- Batch: Each step of gradient descent uses all the training examples.
