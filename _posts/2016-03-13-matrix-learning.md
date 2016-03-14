@@ -15,3 +15,14 @@ title: Matrix learning
 - Singular matrix
 - The transpose of the matrix can be thought of as a mirror image across the main diagonal.
 
+
+### Norms 
+- L^1 used to separate zero and nonzero element 
+
+
+### Special Kinds of Matrices and Vectors
+- Diagonal	 matrices: dia(v)
+- symmetric matrix
+- unit vector
+- orthogonal matrix 正交矩阵
+
