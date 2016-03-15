@@ -23,3 +23,14 @@ title: 机器学习笔记第一周
 - Simultaneous update:
 - convex function: only on global min 
 - Batch: Each step of gradient descent uses all the training examples.
+
+### Feature Scaling:
+- 让所有feature变为 大致 -1<= x_i <= 1 range
+- 可以使得迭代速率增大
+- Mean normalization: 
+	- (x_i - u) / range(max to min) 代替 x_i 
+	- 这样的处理可以使得 总体变得接近于 (-1,1)
+
+### Learning Rate
+
+- 
