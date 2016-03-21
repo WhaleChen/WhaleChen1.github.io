@@ -3,6 +3,17 @@ layout: post
 title: 数据科学项目: A股波动率研究
 ---
 
+### 波动率：
+- 隐含波动率、历史波动率和已实现波动率
+- 隐含波动率：期权定价理论中的一个概念。
+- 历史波动率：投资回报率(收益率)在过去一段时间内所表现出的波动率
+- 已实现波动率：针对频率较高的数据计算的一种波动率，又称为日内波动率或高频波动率。
+
+### 所研究的波动率：
+- 这里所研究的波动率是：波动的难易程度
+- 想象一下，如果我们单单研究历史的波动，
+
+
 ## 观察市场的新视角
 - [股市无敌: 全新的视角全新的工具演绎出空前的战绩](https://books.google.com.hk/books?id=pJ3yvdOkzHwC&pg=PA2&lpg=PA2&dq=%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6+%E8%82%A1%E7%A5%A8&source=bl&ots=bF5K_vNT6R&sig=Db1fRxdviI7NmrCfSYz-qL3_dAc&hl=zh-CN&sa=X&ved=0ahUKEwiH25Gm_8zLAhUHn5QKHZhcANAQ6AEIJzAC#v=onepage&q=%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%20%E8%82%A1%E7%A5%A8&f=false)
 
@@ -59,3 +70,13 @@ title: 数据科学项目: A股波动率研究
 
 - 波动难易度：
 	- 计算：中点位移/盒形比率
+
+ ### 成交量调整后的移动平均线
+ - 由于交易量是市场运行的函数，因此，把MA5 MA10 这种以交易时间为参考的均线修正为
+
+### 参考资料：
+- [波动率也可以用来交易](http://www.xcf.cn/tt2/201402/t20140221_553063.htm)
+- 
+
+### 画图
+- [seaborn](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.boxplot.html)
