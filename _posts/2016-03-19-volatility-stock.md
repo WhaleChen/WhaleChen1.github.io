@@ -20,6 +20,8 @@ title: 数据科学项目A股波动率研究
 - 时间：当我们用计时器来记录时间的时候，我们其实并没有在感觉时间，我们在做的是一种简化形式：分割时间成为均等的部分，并相信时间可以这样被记录。这种影响是深远的，在股票市场，使得我们比较倾向于研究时间序列。是否可以用我们所感觉到的时间来替代为了简化而被均等分割的时间呢？
 - 如何让时间具有可被测量的特性？我们可以这样想，时间就如同一个class类，如果一个类不被实例化我们无法测量这个类实际的运行时间，那么在股市上对于时间的实例化的过程就是赋予时间以成交量。
 - 付上代价的时间：想一个问题，为什么睡觉的时候我们感觉时间特别短，而当我们承受痛苦的时候，我们感觉度日如年？
+- 我们所关注的对象会使得我们忘记时间：废寝忘食。
+- 总结：时间是会被扭曲的。但是成交量相对客观。
 
 ## 观察市场的新视角
 - [股市无敌: 全新的视角全新的工具演绎出空前的战绩](https://books.google.com.hk/books?id=pJ3yvdOkzHwC&pg=PA2&lpg=PA2&dq=%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6+%E8%82%A1%E7%A5%A8&source=bl&ots=bF5K_vNT6R&sig=Db1fRxdviI7NmrCfSYz-qL3_dAc&hl=zh-CN&sa=X&ved=0ahUKEwiH25Gm_8zLAhUHn5QKHZhcANAQ6AEIJzAC#v=onepage&q=%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%20%E8%82%A1%E7%A5%A8&f=false)
@@ -35,7 +37,6 @@ title: 数据科学项目A股波动率研究
 ### 股市中的力学
 - 如果我们要如同牛顿一般定义股市中的力，我们该使用什么衡量力的大小呢？
 - 求导~
-- 
 
 ### 等量图
 - 目的：客观地观测每次价格移动中成交量的作用，并且能观测到长时期里面，成交量积累起来的影响。
@@ -79,12 +80,23 @@ title: 数据科学项目A股波动率研究
 - 波动难易度：
 	- 计算：中点位移/盒形比率
 
- ### 成交量调整后的移动平均线
+### 成交量调整后的移动平均线
  - 由于交易量是市场运行的函数，因此，把MA5 MA10 这种以交易时间为参考的均线修正为
+
+
+### 简易波动指标:
+- [EMV](http://www.essence.com.cn/axhelp/cyzb_5.jsp)
 
 ### 参考资料：
 - [波动率也可以用来交易](http://www.xcf.cn/tt2/201402/t20140221_553063.htm)
-- 
+- [Gaussian HMM of Stock data](http://hmmlearn.readthedocs.org/en/stable/auto_examples/plot_hmm_stock_analysis.html#sphx-glr-auto-examples-plot-hmm-stock-analysis-py)
 
 ### 画图
 - [seaborn](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.boxplot.html)
+
+### 工具积累：
+- np.diff 可以直接计算和之前一项的差
+- to_datetime() 可以直接转换时间样式的str to datetime 格式
+- df['a'].apply(lambda x: 1 if x>0 else -1) 起到的作用是将'a'变为1或-1，map 同样可以
+- mask = (hidden_states==i) 这种模式的书写是为了获得一种判断语句
+- np.append 可以将两个列表合并
