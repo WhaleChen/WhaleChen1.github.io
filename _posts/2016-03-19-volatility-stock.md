@@ -100,3 +100,5 @@ title: 数据科学项目A股波动率研究
 - df['a'].apply(lambda x: 1 if x>0 else -1) 起到的作用是将'a'变为1或-1，map 同样可以
 - mask = (hidden_states==i) 这种模式的书写是为了获得一种判断语句
 - np.append 可以将两个列表合并
+- np.where(condition) 返回是一个 nonzero，返回是index。
+- np.nonzero(x) 返回的是index，大多数是一个坐标。
