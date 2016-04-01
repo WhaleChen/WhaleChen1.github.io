@@ -49,6 +49,19 @@ foo = long_function_name(
     var_one, var_two,
     var_three, var_four)
 
+#关于if 中条件过长，则建议使用如下：
+
+if (this_is_one_thing
+		and that_is_one_thing):
+	do_something()
+
+#对于右边封闭符号，建议没有缩进：
+
+result = some_function_that_takes_arguments(
+	'a','b','c',
+	'd','e','f',
+)
+
 
 
 
