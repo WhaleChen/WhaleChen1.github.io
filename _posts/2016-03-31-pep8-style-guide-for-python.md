@@ -1,8 +1,8 @@
 ---
 layout: post
-title: python syle guide 
+title: python syle guide and Sublime Text 3 approach 
 ---
-
+    
 
 ## 编程规范
 - 学习python有大半年了，很喜欢python的风格。不过写程序写多了越发觉得，自己需要一个规范使得自己所写的东西能够被以后的自己快速的阅读。同时也能够被别人快速的阅读。
@@ -11,7 +11,7 @@ title: python syle guide
 
 > A Foolish Consistency is the Hobgoblin of Little Minds
 
-## 可读性为先
+### 可读性为先
 - "Readability counts". 这是python的精华。
 - 在我看来，python是一场变革，增加了人们直接阅读和查找代码的可能性。如果我真是这样想的，那么去精确而严谨地遵守一套编程规范就变得非常必要。
 - 语言，之所以能够被广为流传，就是因为规范。对于python编写，编程规范是为了一致性，因此，优先级如下：
@@ -25,9 +25,16 @@ title: python syle guide
 	+ 如果代码出现的时间先于pep8,那么没有理由要求项目使用pep8.
 
 
-## 代码布局Code layout:
+### 代码布局Code layout:
 - 缩进Indentation
 	+使用 4个空格
+    +sublime使用帮助：tab相对来讲，比较常用在于快速，因此需要设置一下配置，使得tab能够直接出现4个空格，在sublime3 中，可以在Preferences.sublime-settings 中使用代码，具体可以参考 [sublime text3里 修改TAB键为缩进为四个空格](sublime text3里 修改TAB键为缩进为四个空格)
+
+```
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+```
+
 
 ```
 # Aligned with opening delimiter
@@ -61,7 +68,16 @@ result = some_function_that_takes_arguments(
 	'a','b','c',
 	'd','e','f',
 )
+```
 
+### 空格或者Tab
+- 空格是首选
+- Python 3不允许使用混合Tab 和spaces
+
+### 最大行宽
+- 限制为79个字符。
+- 文本和注释则被限制到72个字符。
+- sublime使用帮助: [SublimeLinter-pep8](https://packagecontrol.io/packages/SublimeLinter-pep8)
 
 
 
