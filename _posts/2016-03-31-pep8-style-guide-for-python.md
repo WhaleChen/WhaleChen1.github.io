@@ -79,5 +79,34 @@ result = some_function_that_takes_arguments(
 - 文本和注释则被限制到72个字符。
 - sublime使用帮助: [SublimeLinter-pep8](https://packagecontrol.io/packages/SublimeLinter-pep8)
 
+```
+class Rectangle(Blob):
+
+
+    def __init__(self, width, height,
+                color='black', emphasis=None, highlight=0):
+        if (width == 0 and height == 0 and
+                color == 'red' and emphasis == 'strong' or
+                highlight > 100):
+            raise ValueError("sorry, you lose")
+        if width == 0 and height == 0 and (color =='red' or
+                                            emphasis is None):
+            raise ValueError("I don't think so -- values are  %s, %s" %
+                            (width, height))
+        Blob.__init__(self, width, height,
+                    color, emphasis, highlight)
+
+```
+
+
+
+
+### Blank Lines 空行
+- 最高层的函数和类的定义需要空2行；
+- 在类中定义方法空一行；
+- 额外空行也可被用在区分不同类型的函数组中，节制使用；
+- 额外空行在必要的时候可以用来分割逻辑部分，节制使用；
+- Python 接受 control-L 作为空白符，不过因编辑器不同会有差异。
+
 
 
