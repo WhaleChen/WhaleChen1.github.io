@@ -118,4 +118,21 @@ class Rectangle(Blob):
 
 ### 字符串的引用
 - 双引号和单引号没有区别，只要保持一致性。
-- 
+
+
+### 命名 Naming Conventions
+- 待补充
+
+### 编程建议
+
+```
+if foo is not None:
+
+def f(x): return 2*x
+
+try:
+    import platform_specific_module
+except ImportError:
+    platform_specific_module = None
+
+```
