@@ -13,3 +13,14 @@ title: python3 cook
 ```
  d = {key: value for (key, value) in iterable}
 ```
+
+### *args and **kwargs
+- 前者是传递多个参数，后者是传递多个键值；
+- 当你不确定你的函数里将要传递多少参数时你可以用*args；
+- **kwargs允许你使用没有事先定义的参数名。
+
+```
+def print_everthing(*args):
+    for count, thing in enumerate(args):
+        print '{0}. {1}'.format(count, thing)
+print_everthing('apple','banana','cabbage')
