@@ -24,3 +24,18 @@ def print_everthing(*args):
     for count, thing in enumerate(args):
         print '{0}. {1}'.format(count, thing)
 print_everthing('apple','banana','cabbage')
+```
+
+### 函数的multimethods：
+
+```
+def foo(a,b)：
+    if isinstance(a,int) and isinstance(b,int):
+        pass
+    if isinstance(a, float) and isinstance(b, float):
+        pass
+    if isinstance(a, str) and isinstance(b, str):
+        pass
+    else:
+        raise TypeError("unsupported argument types ({0}, {1})".format(type(a),type(b)))
+```
