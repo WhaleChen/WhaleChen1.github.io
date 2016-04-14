@@ -25,7 +25,7 @@ title: Ten Days for Django day0
 
 - [DRY principle('Don't repeat yourself'): ](https://docs.djangoproject.com/en/1.9/misc/design-philosophies/#dry)每一个概念或数据只出现在一个地方。避免冗余。标准化是好的！
 
-
+> [post 使用原则](https://docs.djangoproject.com/en/1.9/intro/tutorial04/#write-a-simple-form): Whenever you create a form that alters data server-side, use method="post"。 当我们用一个表格，如果数据的修改在服务器这边的，使用post。
 
 
 

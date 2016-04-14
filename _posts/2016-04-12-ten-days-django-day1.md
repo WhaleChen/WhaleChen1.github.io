@@ -48,3 +48,7 @@ mysql --user=root
 
 ### Databases installation in Django 
 - [MySQL](https://docs.djangoproject.com/en/1.9/ref/databases/#mysql-notes)
+- [问题一](http://www.cnblogs.com/ldm1989/p/4210743.html)
+    +解决：[Microsoft Visual C++ Compiler for Python 2.7 ](https://www.microsoft.com/en-us/download/confirmation.aspx?id=44266)
+- [问题二](http://www.tuicool.com/articles/63EjYj)
+    +解决：[驱动问题](http://vdisk.weibo.com/s/aBSXQ0shtv7cN?sudaref=www.baidu.com)
