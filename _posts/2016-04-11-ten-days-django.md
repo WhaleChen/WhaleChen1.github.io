@@ -4,7 +4,7 @@ title: Ten Days for Django day0
 ---
 
 ### 缘起
-- 开始进入工作准备状态，发现自己需要一个突破口。python web backend engineer是最好的开始。而首先，需要django作为我学习能力的自我测试。在没有django知识的情况下，我希望用django建立一个网站。以此开始转变为程序员之路的第一步。
+- 开始进入工作准备状态，发现自己需要一个突破口。python web backend engineer是最好的开始。首先，需要django作为我学习能力的自我测试。Django作为一个较好的学习框架，其中的MVC架构和其中的编程规范都非常值得学习。因此，以此作为切入点！
 - 学习范式：由于程序员是一个终生学习的职业，因此在这里，我试图恪守学习记录，并按照范式学习，也为工作之后的我建立良好的工作习惯。
 
 ### Day0
@@ -27,6 +27,7 @@ title: Ten Days for Django day0
 
 > [post 使用原则](https://docs.djangoproject.com/en/1.9/intro/tutorial04/#write-a-simple-form): Whenever you create a form that alters data server-side, use method="post"。 当我们用一个表格，如果数据的修改在服务器这边的，使用post。
 
+> “Code without tests is broken by design.”
 
 
 #### 关键点Keywords:

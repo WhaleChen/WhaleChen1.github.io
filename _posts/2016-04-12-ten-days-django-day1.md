@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ten Days for Django day1: database and mysql
+title: Ten Days for Django day1 database and mysql
 ---
 
 ### 解决问题的姿势
